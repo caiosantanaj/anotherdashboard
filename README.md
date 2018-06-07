@@ -39,5 +39,5 @@ We need to receive the "right" Json format
 
 
 ### Credits
-[original tamplate](https://github.com/creativetimofficial/now-ui-dashboard-react)
+* [creativetimofficial/now-ui-dashboard-react](https://github.com/creativetimofficial/now-ui-dashboard-react)
 
