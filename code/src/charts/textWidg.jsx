@@ -24,7 +24,6 @@ class TextWidg extends React.Component{
     }
     componentDidMount() {
         this.count++;
-        console.log("show " + this.props.chartName + " (" + this.props.chartType + " chart) : " + this.state.chart);
     }
 
     updateModal() {
@@ -60,12 +59,12 @@ class TextWidg extends React.Component{
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-      if(this.deleteWidget===true) {
-        return true;
-      }
-      else {
-       return false;
-      }
+        if(this.deleteWidget===true) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
     render() {
@@ -80,7 +79,7 @@ class TextWidg extends React.Component{
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem onClick={this.updateModal}>Change Settings</DropdownItem>
-                                      { this.modal ? <LineModal className="cancel-drag" updateParent={this.updateModal} name={this.name} changeSettings={this.changeSettings} /> : null }
+                                      { this.modal ? <NoteModal className="cancel-drag" updateParent={this.updateModal} name={this.name} cont={this.cont} changeSettings={this.changeSettings} /> : null }
                                     <DropdownItem onClick={this.updateState} className="text-danger">Remove data</DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
@@ -102,14 +101,14 @@ class TextWidg extends React.Component{
     }
 }
 
-class LineModal extends React.Component{
+class NoteModal extends React.Component{
 
     constructor(props) {
       super (props);
       this.state = {
         modalIsOpen: true,
-        name: "",
-        cont: "",
+        name: this.props.name,
+        cont: this.props.cont,
       }
       this.onSubmit = this.onSubmit.bind(this);
       this.closeRequest = this.closeRequest.bind(this);
@@ -150,7 +149,7 @@ class LineModal extends React.Component{
     render() {
       return (
         <Modal isOpen={this.state.modalIsOpen} closeRequest={this.closeRequest} className={this.props.className}>
-                    <ModalHeader toggle={this.closeRequest}>Line Chart Settings</ModalHeader>
+                    <ModalHeader toggle={this.closeRequest}>Note Settings</ModalHeader>
                     <ModalBody>
                         <form>
                             <FormGroup row>
@@ -162,7 +161,7 @@ class LineModal extends React.Component{
                             <FormGroup row>
                                 <Label for="text" sm={2}>Text</Label>
                                 <Col sm={10}>
-                                    <Input type="text" value={this.state.text} onChange={this.handleTextChange} placeholder="text to section" />
+                                    <Input type="text" value={this.state.cont} onChange={this.handleTextChange} placeholder="text to section" />
                                 </Col>
                             </FormGroup>
 

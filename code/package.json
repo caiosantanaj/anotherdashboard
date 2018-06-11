@@ -2,7 +2,7 @@
   "name": "nud-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://caiosantanaj.github.io/anotherdashboard",
+  "homepage": "https://caiosantanaj.github.io/anotherdashboard/",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "chart.js": "^2.7.2",
