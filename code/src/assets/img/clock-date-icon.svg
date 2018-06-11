@@ -1,0 +1,43 @@
+<svg width="100.00000000000001" height="100.00000000000001" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_7" fill="#ffffff" d="m72,21l0,7l-4,0l0,-7l-4,0l0,7l-4,0l0,-7l-4,0l0,7l-4,0l0,-7l-4,0l0,7l-4,0l0,-7l-4,0l0,7l-4,0l0,-7l-4,0l0,7l-4,0l0,-7l-8,0l0,3l-4,0l0,58l60,0l0,-4l4,0l0,-45l0,-12l-8,0zm2,59l-56,0l0,-43l2,0l0,41l54,0l0,2zm4,-4l-56,0l0,-43l56,0l0,43z"/>
+  <rect id="svg_8" y="17" x="37" width="2" height="10" fill="#ffffff"/>
+  <rect id="svg_9" y="17" x="45" width="2" height="10" fill="#ffffff"/>
+  <rect id="svg_10" y="17" x="53" width="2" height="10" fill="#ffffff"/>
+  <rect id="svg_11" y="17" x="61" width="2" height="10" fill="#ffffff"/>
+  <rect id="svg_12" y="17" x="69" width="2" height="10" fill="#ffffff"/>
+  <rect id="svg_13" y="41" x="28" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_14" y="41" x="36" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_15" y="41" x="44" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_16" y="41" x="52" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_17" y="41" x="60" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_18" y="41" x="68" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_19" y="49" x="28" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_20" y="49" x="36" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_21" y="49" x="44" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_22" y="49" x="52" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_23" y="49" x="60" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_24" y="49" x="68" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_25" y="57" x="28" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_26" y="57" x="36" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_27" y="57" x="44" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_28" y="57" x="52" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_29" y="57" x="60" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_30" y="57" x="68" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_31" y="65" x="28" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_32" y="65" x="36" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_33" y="65" x="44" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_34" y="65" x="52" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_35" y="65" x="60" width="4" height="4" fill="#ffffff"/>
+  <rect id="svg_36" y="65" x="68" width="4" height="4" fill="#ffffff"/>
+  <path id="svg_37" fill="#ffffff" d="m37.998,47.5c2.481,0 4.5,-2.019 4.5,-4.5s-2.019,-4.5 -4.5,-4.5s-4.5,2.019 -4.5,4.5s2.019,4.5 4.5,4.5zm0,-8c1.93,0 3.5,1.57 3.5,3.5s-1.57,3.5 -3.5,3.5s-3.5,-1.57 -3.5,-3.5s1.57,-3.5 3.5,-3.5z"/>
+  <path id="svg_38" fill="#ffffff" d="m53.998,63.5c2.481,0 4.5,-2.019 4.5,-4.5s-2.019,-4.5 -4.5,-4.5s-4.5,2.019 -4.5,4.5s2.019,4.5 4.5,4.5zm0,-8c1.93,0 3.5,1.57 3.5,3.5s-1.57,3.5 -3.5,3.5s-3.5,-1.57 -3.5,-3.5s1.57,-3.5 3.5,-3.5z"/>
+  <rect id="svg_39" y="17" x="29" width="2" height="10" fill="#ffffff"/>
+ </g>
+</svg>
