@@ -122,7 +122,8 @@ class ValueMessageList extends React.Component {
             }
 
             //Busca os valores do json
-            var newElem = valuesFromJson.data.value;
+            var tmpValue = valuesFromJson.data.value;
+            var newElem = tmpValue.toFixed(2);
             if(!(newElem == null)) {
 
                 if (this.x.length == this.props.conf.numberOfValues) {
