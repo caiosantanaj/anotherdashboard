@@ -7,7 +7,6 @@ code/node_modules
 /coverage
 
 # production
-/build
 code/build
 
 # misc
