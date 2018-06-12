@@ -107,8 +107,6 @@ class Dashboard extends React.Component {
                mapping.w = 0
            }
 
-           console.log("adding : " + JSON.stringify(mapping));
-
            var array = this.state.dashState;
            array.push({id:this.state.counter + 1,
                        type: values[0],
@@ -145,7 +143,6 @@ class Dashboard extends React.Component {
                mapping.w = 0
            }
 
-           console.log("adding : " + JSON.stringify(mapping));
            array.push({id:this.state.counter + 1,
                        type: values[0],
                        name: values[1],
@@ -327,33 +324,26 @@ class Dashboard extends React.Component {
                                 }
                             }
                             else if (item.type == "text") {
-                                console.log(layout[i].x);
                                 if (oldObject.changed === false && oldObject.position.moved===false && (layout[i].x != item.position.x || layout[i].y != item.position.y)){
-                                    console.log("first move without change of settings")
                                     var objct = {id:item.id,type: item.type, name: item.name, cont: item.cont ,position:{x:layout[i].x,y:layout[i].y, w:layout[i].w, h:layout[i].h,moved: true}, changed: false}
                                 }
                                 else if (oldObject.changed === false && oldObject.position.moved===true){
-                                    console.log("next move without change of settings")
                                     var objct = {id:item.id,type: item.type, name: item.name, cont: item.cont ,position:{x:layout[i].x,y:layout[i].y, w:layout[i].w, h:layout[i].h,moved: true}, changed: false}
                                 }
                                 else if (oldObject.changed === true && oldObject.position.moved===false && (layout[i].x != item.position.x || layout[i].y != item.position.y)){
-                                    console.log("change without move and move")
                                     var oldObject = JSON.parse(localStorage.getItem(item.id));
                                     var cont = oldObject.cont
                                     var name = oldObject.name
-                                    console.log(cont);
 
                                     var objct = {id:item.id,type: item.type, name: name, cont: cont ,position:{x:layout[i].x,y:layout[i].y, w:layout[i].w, h:layout[i].h,moved: true}, changed: true}
                                 }
                                 else if(oldObject.changed === true && oldObject.position.moved===true){
-                                    console.log("change settings aftert moving")
                                     var cont = oldObject.cont
                                     var name = oldObject.name
                                     var objct = {id:item.id,type: item.type, name: name, cont: cont ,position:{x:layout[i].x,y:layout[i].y, w:layout[i].w, h:layout[i].h,moved: true}, changed: true}
                                 }
                                 else {
-                                    console.log("dasdadasda");
-                                    var objct = {id:item.id,type: item.type, name: name, cont: cont ,position:{x:layout[i].x,y:layout[i].y, w:layout[i].w, h:layout[i].h,moved: false}, changed: false}
+                                    var objct = {id:item.id,type: item.type, name: item.name, cont: item.cont ,position:{x:layout[i].x,y:layout[i].y, w:layout[i].w, h:layout[i].h,moved: false}, changed: false}
                                 }
                             }
                             else if (item.type == "gauge"){
@@ -396,8 +386,6 @@ class Dashboard extends React.Component {
                         }
                     }
                     this.lastPosition = {x:x,y:y,w:w,h:h}
-                    console.log("x: " + x + " y: " + y)
-                    console.log(JSON.stringify(this.lastPosition));
                 }
             });
 
@@ -407,7 +395,6 @@ class Dashboard extends React.Component {
     }
 
    onWidthChange(){
-       console.log("here")
        this.refs.resp.onSidebarChange();
    }
 
