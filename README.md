@@ -3,7 +3,7 @@
 **Another Dashboard** is a simple and serverless way to read and visualize your data in real-time.
 With a few number of clicks, you can create a pane containing one widget and immediately be ready to start using it.
 
-[![Another Dashboard video](https://i.imgur.com/2hU181P.png)](https://www.youtube.com/watch?v=JTjOTWfXGNg)
+[![Another Dashboard video](https://i.imgur.com/2hU181P.png)](https://www.youtube.com/watch?v=OFcvRGImODI)
 (click on the image to see our video :blush:)
 
 ## Prerequisites:
