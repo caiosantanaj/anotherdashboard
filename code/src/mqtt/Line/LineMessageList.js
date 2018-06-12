@@ -20,7 +20,8 @@ const opts = {
         }]
     },
     responsive:true,
-    maintainAspectRatio: false
+    maintainAspectRatio: false,
+    animation: false
 }
 
 const colors = [

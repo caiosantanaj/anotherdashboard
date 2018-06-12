@@ -21,6 +21,7 @@ const opts = {
       },
       responsive: true,
       maintainAspectRatio: false,
+      animation: false,
       scales: {
           xAxes: [{
               ticks: {
