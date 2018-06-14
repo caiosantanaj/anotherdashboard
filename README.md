@@ -37,6 +37,6 @@ We need to receive the "right" Json format
 * [Manuel Gil](https://github.com/manueljbgil)
 
 
-### Credits
+### Template Credits
 * [creativetimofficial/now-ui-dashboard-react](https://github.com/creativetimofficial/now-ui-dashboard-react)
 
