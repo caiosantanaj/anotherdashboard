@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2087"
+   height="1602"
+   version="1.1"
+   id="svg200"
+   sodipodi:docname="barchart-icon.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata206">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs204" />
+  <sodipodi:namedview
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="0"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3200"
+     inkscape:window-height="1674"
+     id="namedview202"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="0.7449875"
+     inkscape:cx="866.77815"
+     inkscape:cy="800.15558"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg200" />
+  <g
+     id="g193"
+     transform="translate(0,-190)">
+    <title
+       id="title190">background</title>
+    <rect
+       id="canvas_background"
+       height="402"
+       width="582"
+       y="-1"
+       x="-1"
+       style="fill:none" />
+  </g>
+  <g
+     id="g198"
+     transform="translate(144.27119,-100.77966)">
+    <title
+       id="title195">Layer 1</title>
+    <path
+       id="svg_1"
+       d="m 469.04626,914.79226 v 512.00004 h -256 V 914.79226 Z m 384,-512 V 1426.7923 h -256 V 402.79226 Z m -1024,1280.00004 v 0 0 0 z M 1237.0463,658.79226 V 1426.7923 H 981.04626 V 658.79226 Z m 384,-384 V 1426.7923 h -256 V 274.79226 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccc" />
+  </g>
+</svg>
