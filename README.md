@@ -18,7 +18,7 @@ A supported [web browser](#supported-web-browsers)
 
 ## Documentation
 
-Check out our [documentation](https://github.com/caiosantanaj/projectBackup/wiki)!!!
+Check out our [documentation](https://github.com/caiosantanaj/anotherdashboard/wiki)!!!
 We need to receive the "right" Json format
 
 ## Others
